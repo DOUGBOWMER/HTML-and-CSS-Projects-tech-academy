@@ -1,0 +1,26 @@
+p{
+	color: green;
+	text-align:right;
+}
+
+.font_1{
+	background-color: black
+	color: yellow;
+	font-size: large;
+}
+.font_2 {
+	background-color:darkblue:
+	color:white;
+	font_size: medium;
+}
+
+<style>
+	.funky {
+			background-color: black; 
+			color white;
+			text-decoration: italic:
+			fontsize: large;
+	}
+</style>
+
+

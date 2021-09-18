@@ -1,0 +1,11 @@
+.upset {
+background-color: red; 
+color: black;
+text-decoration: underlined;
+fontsize: large;
+text-align: center;
+}	
+
+h1 {
+  text-shadow: 5px 5px;
+}
