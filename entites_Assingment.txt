@@ -1,0 +1,8 @@
+Enties name and Number/css shadow assingment
+
+1. entitises are charater in html that cannot be easily typed, or they would be confused as code to the browser. 
+There are two ways to call Entity in html, entityname, or entity number. the name is used  witth out the # the number includes #. 
+
+3.the text shadow is exactly what it sounds like, it is a shadow behind the text. In ccs this is done by noteating the text-shadow code= h1 {
+  text-shadow: 2px 2px;
+}
