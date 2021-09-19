@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html> 
 
 <html>
@@ -45,3 +46,52 @@ p( color;blue;
 </body>
 </html> 
 
+=======
+<!DOCTYPE html> 
+
+<html>
+	<body> 
+		<style>
+.font_1 {
+	background-color: black;
+	color: yellow;
+	font-size: large;
+}
+.font_2 {
+	background-color: darkblue;
+	color: white;
+	font_size: medium;
+} 
+
+<style>
+	.funky {
+			background-color: black; 
+			color white;
+			text-decoration: italic:
+			fontsize: large;
+}	
+
+h1{
+	background-color:yellow;
+p( color;blue;
+}
+	
+	
+</style>
+</style>
+<h2 class="font_1">This h2 element is styled per class attribute font_1 </h2>
+<h3 class="font_2">This h3 element is styled per class attribute font _2</h3>
+<h4 class="font_1"> Even though this is an h4 element, it is styled the same as the h2 element because we pointed to the class attribute font_1</h4>
+<br>
+<p class="funky"> This is my little paragraph element, he is feeling funky because of his class it it Funky</p,
+</style>
+
+
+
+
+
+
+</body>
+</html> 
+
+>>>>>>> 1b7443d2b1e2d9b0825e4248111e0e694a8d6a41

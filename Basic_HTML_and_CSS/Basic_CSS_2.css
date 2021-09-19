@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .upset {
 background-color: red; 
 color: black;
@@ -8,4 +9,16 @@ text-align: center;
 
 h1 {
   text-shadow: 5px 5px;
+=======
+.upset {
+background-color: red; 
+color: black;
+text-decoration: underlined;
+fontsize: large;
+text-align: center;
+}	
+
+h1 {
+  text-shadow: 5px 5px;
+>>>>>>> 1b7443d2b1e2d9b0825e4248111e0e694a8d6a41
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table {
 	border:3px black;
 }
@@ -12,3 +13,19 @@ tr,th {
 	color: cornsilk;
 }
 
+=======
+table {
+	border:3px black;
+}
+
+td:hover{
+	background-color: yellow;
+	color: black;
+}
+
+tr,th {
+	background-color: black;
+	color: cornsilk;
+}
+
+>>>>>>> 1b7443d2b1e2d9b0825e4248111e0e694a8d6a41
