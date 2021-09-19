@@ -12,12 +12,12 @@ h1{
     width: 450;
     height: 450;
     background-color: #faebd7;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 5%;
 }
 
-.container.squares:nth-child(-n+4){
-    background-image: url("..\CSS-Project\Icons\Icon_1.png");
+.squares:nth-child(-n+4){
+    background-image: url("../CSS-Project/Icons/icon_1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -26,18 +26,21 @@ h1{
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
+    transition: transform 0.5em ease-in-out;
+
 }
 
-.squares:nth-child(-n+4) p{
+.container.squares:nth-child(-n+4) p{
     font-family:"Helvetica nue" Arial, Helvetica, sans-serif;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
-    text-shadow: 2px 1px 4px rgba(0,0,0,0.8);
+    text-shadow: 2px 1px 5px rgba(0,0,0,0.8);
 
 }
-.squares:nth-child(1){
+
+.squares:nth-child(-n+4){
     background-color: #4240ff;
 }
 
@@ -51,4 +54,43 @@ h1{
 
 .squares:nth-child(4){
     background-color: #00b200;
+}
+
+.squares:nth-child(-n+4):hover{
+    background-image: url("../CSS-Project/Icons/icons_2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5,.5,.3,2);
+
+}
+
+.squares:nth-child(1):hover{
+    background-color: #134bff;
+}
+
+.squares:nth-child(2):hover{
+    background-color: #d861af;
+}
+
+.squares:nth-child(3):hover{
+    background-color: #81205f;
+}
+
+.squares:nth-child(4):hover{
+    background-color: #77b800;
+
+}
+/*---------------------------------
+animation effect- 
+-----------------------------------*/
+@keyframes race {
+    0%, 100%{
+    tranform:translateY (opx);
+    background-image: url("../CSS-Project/Icons/icons_2.png");
+    }
+    50% {
+        transform:translateY(330px);
+    }
 }
