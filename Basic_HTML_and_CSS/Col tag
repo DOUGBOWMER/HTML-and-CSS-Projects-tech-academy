@@ -1,0 +1,33 @@
+<!!DOCTYPE html>
+<html lang="en">
+    <Head>
+        <title>This is My New Title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href= "newcss.css">
+    </Head>
+        <Body>
+            <table>
+                <colgroup>
+                    <col style="background-color:red">
+                    <col style="background-color: rgb(136, 136, 136);">
+                    <col style="background-color: beige;">
+                </colgroup>
+            </table>
+            <tr>
+                <th>Participant</th>
+                <th>Age</th>
+                <th>Score</th>
+            </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <td>52</td>
+                    <td>96</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Amanda</td>
+                    <td>42</td>
+                    <td> 79</td>
+                </tr>
+        </Body>
+</html>
