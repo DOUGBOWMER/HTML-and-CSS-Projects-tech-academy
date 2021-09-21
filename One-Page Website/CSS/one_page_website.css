@@ -1,0 +1,54 @@
+/*=====================================================================
+            One page Website assingment Author Doug Bowmer
+======================================================================*/
+
+body {
+    align-items: center;
+}
+h1 {
+    font-family: fantasy;
+    font-size: 30x;
+
+}
+  
+
+
+
+#sitetitle {
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: orangered;
+    border-width: 5px;
+    text-shadow: 2px 2px 4px rgb(0,0,0, 0.4);
+    color: red
+}
+/*=======================================================contact form=============================*/
+
+
+
+ .contact-form {
+     align-items: center;
+ }
+
+
+.contact-container {
+    margin: 0;
+    padding:10px;
+    max-width: 60%;
+    background-color: rgb(120, 120, 121);
+
+}
+
+.form-box {
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.RSVP {
+    margin: 0px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+    /*========================menu============================================================*/
+
