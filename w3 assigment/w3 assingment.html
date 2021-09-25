@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> </title> 
+</head>
+    <body>
+        <h1>The template Element</h1>
+
+        <p class="display-none">click the button below for a surprise</p>
+
+        <button  onclick="showContent()">Show hidden COntent</button>
+
+        <template>
+            <h2>indian Motorcycle</h2>
+            <img src="../bootstrap4_project/Images/metroplexmarketplace.png" alt="Metro Life">
+        </template>
+        <script>
+            function showContent(){
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+
+            }
+        </script>
+<h1>Just a little javascript inside the html thats all</h1>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

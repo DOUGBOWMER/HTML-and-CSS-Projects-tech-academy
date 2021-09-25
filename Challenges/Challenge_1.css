@@ -1,0 +1,21 @@
+/*========================================================*/
+/*                      Challeng ONE                      */
+/*========================================================*/
+.imgcontainer {
+    padding: .5em;
+    background-color: crimson;
+    border-radius: 100em;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ .img1{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 30%;
+     border-radius: 100px;
+    filter: grayscale(100%);      
+}
