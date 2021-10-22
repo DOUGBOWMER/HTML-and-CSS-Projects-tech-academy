@@ -1,12 +1,13 @@
 
 //open the he Modal
 function openModal() {
-  document.getElementById("myModal").style.display = "block";
+  document.getElementById("myModal").style.display = "block";// get ing openMOdal function and appply 
+  //it to thehtml object
 }
 
 // Close Modal
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+function closeModal() {// naming function
+  document.getElementById("myModal").style.display = "none";// get the MyMOdal object
 }
 
 var slideIndex = 1;
